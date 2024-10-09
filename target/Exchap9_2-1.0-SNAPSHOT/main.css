@@ -1,0 +1,94 @@
+/* Reset các thuộc tính mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Định dạng chung cho body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Định dạng tiêu đề */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Định dạng cho bảng */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Định dạng cho hàng bảng */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Định dạng cho hàng khi di chuột */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Định dạng cho các liên kết */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Định dạng cho nút */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Định dạng cho phần giỏ hàng */
+.cart {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: white;
+}
+
+.cart h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho thông điệp */
+.message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
